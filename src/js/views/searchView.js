@@ -16,7 +16,7 @@ export const highlightSelected = id => {
 };
 
 // eg 'Pasta with tomato and spinach' 
-const limitRecipeTitle = (title, limit=20) => {
+export const limitRecipeTitle = (title, limit=20) => {
     const newTitle = [];
     if (title.length > limit) {
         /* Esto hace iteraciones con los pedazos de un titulo, incrementando en el tamaño de
